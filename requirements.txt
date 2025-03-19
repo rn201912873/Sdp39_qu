@@ -1,0 +1,7 @@
+transformers
+torch
+matplotlib
+fpdf
+pymongo
+bcrypt
+plotly
