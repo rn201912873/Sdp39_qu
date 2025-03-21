@@ -357,10 +357,10 @@ else:
 
             # Map both full names and short names to model paths
             base_models = {
-                "Clean": r"D:\QU\sdp-39-cs-m\models\fine_tuned_brain_tumor_model.pth",
-                "Exposure": r"D:\QU\sdp-39-cs-m\models\fine_tuned_brain_tumor_model_with_exposure.pth",
-                "Distortion": r"D:\QU\sdp-39-cs-m\models\fine_tuned_brain_tumor_model_with_distortion.pth",
-                "Combined": r"D:\QU\sdp-39-cs-m\models\fine_tuned_brain_tumor_model_with_noise_and_exposure_combined.pth"
+                "Clean": r"models/fine_tuned_brain_tumor_model.pth",
+                "Exposure": r"models/fine_tuned_brain_tumor_model_with_exposure.pth",
+                "Distortion": r"models/fine_tuned_brain_tumor_model_with_distortion.pth",
+                "Combined": r"models/fine_tuned_brain_tumor_model_with_noise_and_exposure_combined.pth"
             }
             
             model_path_map = {**base_models}  # Copy base models
